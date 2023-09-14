@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: gray;
+}
+#container{
+    margin: 12px auto 0;
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#canvasContainer{
+    flex: 2;
+    line-height: 0.2rem;
+}
+#canvas{
+    border: 2px solid black;
+    background-color: #f2f2f2;
+}
+#gameUI{
+    flex: 1;
+    padding: 10px 1%;
+    border: 2px solid black;
+    width: 100%;
+}
+#gameUI label{
+    font-size: 30px;
+    font-weight: bold;
+    color: #00FF42;
+}
+#gameUI span{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+#buttons div{
+    margin: 15px 0;
+}
+.uiButtons{
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+#saveLoadSuccessful{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #00FF42;
+}
+#asset-part{
+    display: none;
+}
